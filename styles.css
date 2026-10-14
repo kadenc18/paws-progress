@@ -20,3 +20,6 @@ main{padding:0 16px}.hero{padding:0;text-align:center}.hero h1{font-size:clamp(2
 
 /* Keep tap gestures responsive without double-tap page zoom. */
 html{touch-action:manipulation}
+
+/* Keep the page in place while a form is open; let the dialog scroll. */
+body.modal-open{position:fixed;width:100%;overflow:hidden}dialog{overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
