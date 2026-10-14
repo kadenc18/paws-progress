@@ -35,3 +35,6 @@ A mobile-first, Peru-red-and-white calorie and daily habit tracker. No build too
 ## Updating
 
 Upload changed files and commit. The site will redeploy automatically. If an installed app appears stale, close and reopen it while connected to the internet. For larger updates, bump the cache name in `sw.js`.
+
+## Version 3 visual update
+This version uses illustration crops from the approved original concept mockup to closely match its mascots. Upload **all** files, including the four new PNGs, to the same GitHub Pages directory. Your existing browser data is preserved because the storage key has not changed. Export a backup first.
