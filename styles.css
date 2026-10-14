@@ -26,3 +26,7 @@ body.modal-open{position:fixed;width:100%;overflow:hidden}dialog{overscroll-beha
 
 /* Selectable reward art: the worn accessory is part of each mascot asset. */
 .reward-illustration{max-width:240px;min-height:190px;display:grid;place-items:center}.reward-illustration img{max-height:190px;object-fit:contain}.reward-illustration span{display:none}.accessory-choice{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:8px 0 13px;font-size:12px;color:#745a60}.accessory-choice .pill{padding:7px 11px}.reward-item.selected{border:2px solid #c9233c;background:#fff0ee}.reward-item:focus-visible,.accessory-choice .pill:focus-visible{outline:2px solid #c9233c;outline-offset:2px}
+
+
+/* Water taps update the existing card and keep mascot animations running. */
+.water-actions{min-height:44px}.water-actions button{touch-action:manipulation}.water-actions button:disabled{opacity:.45;cursor:default}.water-drops{min-width:0;line-height:1.5;overflow-wrap:anywhere}.water-celebration[hidden]{display:none}.water-celebration{margin-top:14px}.water-congrats{font-size:13px;color:#a5283e;line-height:1.5}.water-dance{display:block;width:100%;aspect-ratio:1;border-radius:14px;background:#fff3ed}.water-celebration>button{display:block;margin:10px auto 0}@media(prefers-reduced-motion:reduce){.water-card .progress>div{transition:none}}
